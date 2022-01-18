@@ -9,7 +9,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "lint": "node .",
+    "lint": "lint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
