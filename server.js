@@ -6,7 +6,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  const foo = req.body;;
+  const tk = req.headers.authorization.split(' ')[1];
+  console.log(tk);
   res.send("success");
 });
 
