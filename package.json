@@ -2,5 +2,25 @@
   "dependencies": {
     "ci": "^2.1.1",
     "lint": "^0.7.0"
-  }
+  },
+  "name": "nodejs-githubaction",
+  "description": "ci/cd 과정 중 Node.js 서버를 ci 진행.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "lint": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinJaehyun/nodejs-githubAction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinJaehyun/nodejs-githubAction/issues"
+  },
+  "homepage": "https://github.com/MinJaehyun/nodejs-githubAction#readme"
 }
